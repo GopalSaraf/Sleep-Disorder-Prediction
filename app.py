@@ -336,6 +336,25 @@ st.write(
     "App repository available on [GitHub](https://github.com/GopalSaraf/Sleep-Disorder-Prediction)."
 )
 
+st.header("Models Used")
+st.write(
+    """- Logistic Regression
+- Decision Tree
+- XGBoost"""
+)
+
+st.header("Results")
+st.write(
+    """
+| Model                 | Accuracy | Precision | Recall | F1 Score |
+| -------------         | -------- | --------- | ------ | -------- |
+| Logistic Regression   | 0.79     | 0.80      | 0.73   | 0.75     |
+| Decision Tree         | 0.96     | 0.95      | 0.95   | 0.95     |
+| XGBoost               | 0.96     | 0.95      | 0.95   | 0.95     |
+"""
+)
+
+
 st.header("Contributors")
 st.write(
     "This app was created by Gopal Saraf, Riddhi Sabane, Mugdha Kulkarni, and Vaishnavi Shinde."
@@ -344,7 +363,8 @@ st.write(
 st.write(
     """- [Gopal Saraf](https://github.com/GopalSaraf)
 - [Riddhi Sabane](https://github.com/sabaneriddhi)
-- [Mugdha Kulkarni](https://github.com/mugdha0611)"""
+- [Mugdha Kulkarni](https://github.com/mugdha0611)
+- [Vaishnavi Shinde](https://github.com/GopalSaraf)"""
 )
 
 st.header("License")

@@ -138,3 +138,7 @@ ENV/
 
 # Mac
 .DS_Store
+
+# Hugging face app
+Sleep-Disorder-Prediction/
+index.html
